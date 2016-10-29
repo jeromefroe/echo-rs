@@ -1,0 +1,10 @@
+[package]
+name = "echo-rs"
+version = "0.1.0"
+authors = ["Jerome Froelich <jeromefroelich@hotmail.com>"]
+
+[dependencies]
+mio = "0.6"
+futures = "0.1"
+tokio-core = "0.1"
+tokio-tls = { git = "https://github.com/tokio-rs/tokio-tls" }
